@@ -15,5 +15,10 @@ describe('Fizzbuzz', function() {
     a = 7;
     expect(fizzbuzz(a)).toBe(7);
   });
-  
+
+  it("expects fizzbuzz(15) to return fizzbuzz", function(){
+    a = 15;
+    expect(fizzbuzz(a)).toBe("fizzbuzz");
+  });
+
 });
